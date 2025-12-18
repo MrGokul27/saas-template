@@ -59,7 +59,7 @@ export default function Testimonials() {
   const t = testimonials[index];
 
   return (
-    <section className="py-20 px-6 md:px-20 text-center">
+    <section className="lg:px-20 px-5 py-10 lg:py-20 text-center">
       <p className="text-xs tracking-widest text-[#3734A9] font-bold">
         TESTIMONIALS
       </p>

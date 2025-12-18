@@ -3,7 +3,7 @@ export default function ProcNextLevelCard() {
     <section className="mb-20">
       {/* Content */}
       <div
-        className="relative bg-cover bg-center bg-no-repeat rounded-xl gap-6 px-10 py-20 max-w-2xl mx-auto flex flex-col items-center text-center text-white"
+        className="relative bg-cover bg-center bg-no-repeat rounded-xl gap-6 px-5 md:px-10 py-20 max-w-2xl mx-auto flex flex-col items-center text-center text-white"
         style={{
           backgroundImage: "url('src/assets/images/nextLevelCard.png')",
         }}

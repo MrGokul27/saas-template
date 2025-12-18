@@ -2,7 +2,7 @@ import { Trophy, Flower2, SunMedium, ArrowRight } from "lucide-react";
 
 export default function GrowFaster() {
   return (
-    <section className="py-20 bg-[#f5f7ff] px-6 md:px-20">
+    <section className="lg:px-20 px-5 py-10 lg:py-20 bg-[#f5f7ff]">
       {/* Heading */}
       <div className="text-center max-w-3xl mx-auto">
         <h2 className="text-4xl font-extrabold text-black">
@@ -16,7 +16,7 @@ export default function GrowFaster() {
       </div>
 
       {/* Cards */}
-      <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
 
         {/* Card 1 */}
         <div className="bg-white p-10 rounded-3xl shadow-sm">

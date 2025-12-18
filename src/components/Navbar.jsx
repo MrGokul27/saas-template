@@ -2,7 +2,7 @@ import { MoonIcon, SunIcon } from "@heroicons/react/24/outline";
 
 export default function Navbar({ dark, setDark }) {
   return (
-    <header className="flex justify-between items-center md:px-20 px-5 py-4 absolute top-0 left-0 right-0 z-50">
+    <header className="lg:px-20 px-5 py-4 flex justify-between items-center absolute top-0 left-0 right-0 z-50">
       <h1 className="text-xl font-bold">SaaS Launch</h1>
 
       <div className="flex items-center gap-6">
@@ -19,12 +19,12 @@ export default function Navbar({ dark, setDark }) {
         </nav>
       </div>
 
-      <div className="flex items-center gap-4">
-        <button className="px-3 py-1 border-none rounded-lg text-sm">
+      <div className="flex items-center gap-2 md:gap-4">
+        <button className="px-3 py-1 border-none rounded-lg text-sm whitespace-nowrap">
           Sign In
         </button>
 
-        <button className="px-6 py-3 bg-[#5D5FEF] text-white rounded-lg text-sm">
+        <button className="px-4 py-2 md:px-6 md:py-3 bg-[#5D5FEF] text-white rounded-lg text-sm whitespace-nowrap">
           Start Free
         </button>
 

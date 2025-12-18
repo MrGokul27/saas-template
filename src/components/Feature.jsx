@@ -2,9 +2,9 @@ import { Star, Award, Lightbulb } from "lucide-react";
 
 export default function Feature() {
   return (
-    <section className="py-20 px-6 md:px-20">
+    <section className="lg:px-20 px-5 py-10 lg:py-20">
       {/* TOP BOX */}
-      <div className="border rounded-3xl p-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-10 bg-white shadow-sm">
+      <div className="border rounded-3xl p-6 lg:p-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-10 bg-white shadow-sm">
         {/* LEFT TEXT */}
         <h2 className="text-3xl md:text-4xl font-bold leading-snug max-w-sm">
           Among leave law
@@ -53,7 +53,7 @@ export default function Feature() {
       </div>
 
       {/* BOTTOM CARDS */}
-      <div className="mt-24 grid grid-cols-1 md:grid-cols-2 gap-10">
+      <div className="mt-10 lg:mt-24 grid grid-cols-1 md:grid-cols-2 gap-10">
         {/* Card 1 */}
         <div className="bg-[#f7f7ff] p-12 rounded-3xl text-center shadow-sm">
           <h3 className="text-2xl font-bold leading-snug">

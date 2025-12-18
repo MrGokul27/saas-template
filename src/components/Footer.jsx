@@ -2,13 +2,13 @@ import { Linkedin, MessageCircle, Twitter, Instagram } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="w-full pt-16 pb-8 md:px-20 px-5 bg-white">
+    <footer className="w-full pt-10 lg:pt-16 pb-8 lg:px-20 px-5 bg-white">
       {/* TOP GRID */}
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
         {/* BRAND */}
         <div>
           <h2 className="font-bold text-lg text-[#1a1a1a]">Saas Launch</h2>
-          <p className="text-sm text-[#757095] mt-3 w-48 leading-relaxed">
+          <p className="text-sm text-[#757095] mt-3 leading-relaxed">
             Simple innate summer fat appear basket his desire joy.
           </p>
 
@@ -49,18 +49,18 @@ export default function Footer() {
             Join Our Newsletter
           </h3>
 
-          <div className="mt-5 flex">
+          <div className="mt-5 flex flex-col sm:flex-row gap-2 sm:gap-0">
             <input
               type="email"
               placeholder="Your email address"
-              className="px-4 py-3 bg-[#F5F5F7] w-full text-sm rounded-l-lg outline-none"
+              className="px-4 py-3 bg-[#F5F5F7] w-full text-sm rounded-lg sm:rounded-l-lg sm:rounded-r-none outline-none"
             />
-            <button className="px-6 bg-[#00D2FF] text-white text-sm font-medium rounded-r-lg">
+            <button className="px-6 py-3 sm:py-0 bg-[#00D2FF] text-white text-sm font-medium rounded-lg sm:rounded-r-lg sm:rounded-l-none">
               Subscribe
             </button>
           </div>
 
-          <p className="text-xs text-[#757095] mt-3 w-56 leading-relaxed">
+          <p className="text-xs text-[#757095] mt-3 leading-relaxed">
             * Will send you weekly updates for your better finance management.
           </p>
         </div>
@@ -71,7 +71,7 @@ export default function Footer() {
 
       {/* COPYRIGHT */}
       <p className="text-center text-sm text-[#757095] mt-6">
-        Copyright © AR Shakir 2022. All Rights Reserved.
+        Copyright © sass 2026. All Rights Reserved.
       </p>
     </footer>
   );

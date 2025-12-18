@@ -1,17 +1,15 @@
 export default function WhyChooseUs() {
   return (
-    <section className="bg-[#0F0E2C] py-24">
-      <div className="max-w-8xl mx-auto md:px-20 px-5 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+    <section className="bg-[#0F0E2C] py-12 lg:py-24">
+      <div className="max-w-8xl mx-auto lg:px-20 px-5 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
         {/* LEFT SIDE */}
         <div>
           <p className="text-sm tracking-widest text-gray-300 mb-4">
             WHY CHOOSE US
           </p>
 
-          <h2 className="text-5xl font-bold text-white leading-tight">
-            Track your crypto <br />
-            portfolio on the <br />
-            best way possible
+          <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight">
+            Track your crypto portfolio on the best way possible
           </h2>
 
           <p className="text-gray-400 mt-6 leading-relaxed">

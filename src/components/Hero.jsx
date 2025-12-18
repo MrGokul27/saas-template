@@ -1,14 +1,14 @@
 import { CheckIcon } from "@heroicons/react/24/solid";
 export default function Hero() {
   return (
-    <section className="hero-container hero-banner md:flex md:flex-row flex flex-col items-center justify-between md:px-20 px-5 py-20 min-h-[100vh]">
+    <section className="lg:px-20 px-5 py-20 hero-container hero-banner md:flex md:flex-row flex flex-col items-center justify-between min-h-[100vh]">
       {/* LEFT CONTENT */}
-      <div className="text-start max-w-xl">
+      <div className="text-start max-w-2xl lg:max-w-xl">
         <p className="text-lg font-semibold">
           Product Growth Solution in Single Platform.
         </p>
 
-        <h1 className="text-4xl md:text-5xl font-extrabold mb-4 leading-tight">
+        <h1 className="text-4xl lg:text-5xl font-bold md:font-extrabold mb-4 leading-tight">
           Managing business payments has never been easier
         </h1>
 
@@ -17,9 +17,9 @@ export default function Hero() {
           whence or. Possession the unpleasing simplicity her uncommonly.
         </p>
 
-        <div className="card flex items-center justify-between">
-          <div>
-            <span className="text-sm font-bold opacity-40">
+        <div className="card flex flex-col sm:flex-row items-center justify-between gap-4 p-4 bg-white shadow-lg rounded-lg">
+          <div className="w-full sm:w-auto">
+            <span className="text-sm font-bold opacity-40 block">
               Register using email address
             </span>
             <div className="text-md font-bold opacity-60">
@@ -27,7 +27,7 @@ export default function Hero() {
             </div>
           </div>
 
-          <button className="px-6 py-3 bg-[#1B1C31] text-white text-md w-40">
+          <button className="px-6 py-3 bg-[#1B1C31] text-white text-md w-full sm:w-40 rounded-md">
             Submit
           </button>
         </div>

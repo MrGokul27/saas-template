@@ -3,7 +3,7 @@ import { Play, Apple } from "lucide-react";
 export default function DownloadApp() {
   return (
     <section
-      className="bg-contain bg-center bg-no-repeat min-h-[100vh] flex items-center justify-center py-20"
+      className="py-10 lg:py-20 bg-contain bg-center bg-no-repeat min-h-[100vh] flex items-center justify-center"
       style={{
         backgroundImage: "url('src/assets/images/whyChooseUsBackground.png')",
       }}
@@ -15,18 +15,18 @@ export default function DownloadApp() {
         </p>
 
         {/* MAIN HEADING */}
-        <h2 className="text-4xl font-bold text-black leading-snug">
-          Download our app and start your free <br />
+        <h2 className="text-3xl md:text-4xl font-bold text-black leading-snug">
+          Download our app and start your free <br className="hidden md:block" />
           trail to get started today!
         </h2>
 
         {/* SUB TEXT */}
-        <p className="text-gray-500 mt-5 text-lg">
+        <p className="text-gray-500 mt-5 text-lg px-4">
           End-to-end payments and financial management in a single solution.
         </p>
 
         {/* BUTTONS */}
-        <div className="flex items-center justify-center gap-6 mt-10">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mt-10">
           {/* App Store Button */}
           <button className="flex items-center gap-2 bg-[#6B72FF] text-white px-6 py-3 rounded-full shadow-md hover:opacity-90 transition">
             <Apple className="w-5 h-5" />

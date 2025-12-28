@@ -55,7 +55,7 @@ export default function Feature() {
       {/* BOTTOM CARDS */}
       <div className="mt-10 lg:mt-24 grid grid-cols-1 md:grid-cols-2 gap-10">
         {/* Card 1 */}
-        <div className="bg-[#f7f7ff] p-12 rounded-3xl text-center shadow-sm">
+        <div className="bg-[#f7f7ff] p-12 rounded-3xl text-center shadow-sm transition-transform duration-200 ease-out hover:scale-105">
           <h3 className="text-2xl font-bold leading-snug">
             Offend belong
             <br />
@@ -67,13 +67,13 @@ export default function Feature() {
             thrown sex lively income.
           </p>
 
-          <button className="mt-8 bg-[#5a54f4] hover:bg-[#4a43e6] text-white px-10 py-3 rounded-xl font-semibold">
+          <button className="mt-8 bg-[#5a54f4] hover:bg-[#4a43e6] text-white px-10 py-3 rounded-xl font-semibold transition-transform duration-200 ease-out hover:scale-105">
             Read More
           </button>
         </div>
 
         {/* Card 2 */}
-        <div className="bg-[#f7f7ff] p-12 rounded-3xl text-center shadow-sm">
+        <div className="bg-[#f7f7ff] p-12 rounded-3xl text-center shadow-sm transition-transform duration-200 ease-out hover:scale-105">
           <h3 className="text-2xl font-bold leading-snug">
             Consulted ourselves it
             <br />
@@ -85,7 +85,7 @@ export default function Feature() {
             doors money.
           </p>
 
-          <button className="mt-8 bg-[#5a54f4] hover:bg-[#4a43e6] text-white px-10 py-3 rounded-xl font-semibold">
+          <button className="mt-8 bg-[#5a54f4] hover:bg-[#4a43e6] text-white px-10 py-3 rounded-xl font-semibold transition-transform duration-200 ease-out hover:scale-105">
             Read More
           </button>
         </div>

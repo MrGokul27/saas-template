@@ -23,16 +23,16 @@ export default function WhyChooseUs() {
           <input
             type="email"
             placeholder="Email Address"
-            className="w-full py-4 px-5 bg-[#2C2C52] text-gray-200 rounded-md outline-none placeholder-gray-400"
+            className="w-full py-4 px-5 bg-[#2C2C52] text-gray-200 rounded-md outline-none placeholder-gray-400 transition-transform duration-200 ease-out hover:scale-105"
           />
 
           <input
             type="password"
             placeholder="Password"
-            className="w-full py-4 px-5 bg-[#2C2C52] text-gray-200 rounded-md outline-none placeholder-gray-400"
+            className="w-full py-4 px-5 bg-[#2C2C52] text-gray-200 rounded-md outline-none placeholder-gray-400 transition-transform duration-200 ease-out hover:scale-105"
           />
 
-          <button className="w-full py-4 bg-[#605DFF] text-white font-semibold rounded-md hover:opacity-90">
+          <button className="w-full py-4 bg-[#605DFF] text-white font-semibold rounded-md hover:opacity-90 transition-transform duration-200 ease-out hover:scale-105">
             GET STARTED
           </button>
         </div>

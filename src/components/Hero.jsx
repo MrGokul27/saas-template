@@ -27,7 +27,7 @@ export default function Hero() {
             </div>
           </div>
 
-          <button className="px-6 py-3 bg-[#1B1C31] text-white text-md w-full sm:w-40 rounded-md">
+          <button className="px-6 py-3 bg-[#1B1C31] text-white text-md w-full sm:w-40 rounded-md transition-transform duration-200 ease-out hover:scale-105">
             Submit
           </button>
         </div>

@@ -14,10 +14,10 @@ export default function Footer() {
 
           {/* SOCIAL ICONS */}
           <div className="flex items-center gap-4 mt-5 text-[#3734A9]">
-            <Linkedin className="w-6 h-6" />
-            <MessageCircle className="w-6 h-6" />
-            <Twitter className="w-6 h-6" />
-            <Instagram className="w-6 h-6" />
+            <Linkedin className="w-6 h-6 transition-transform duration-200 ease-out hover:scale-105" />
+            <MessageCircle className="w-6 h-6 transition-transform duration-200 ease-out hover:scale-105" />
+            <Twitter className="w-6 h-6 transition-transform duration-200 ease-out hover:scale-105" />
+            <Instagram className="w-6 h-6 transition-transform duration-200 ease-out hover:scale-105" />
           </div>
         </div>
 
@@ -53,9 +53,9 @@ export default function Footer() {
             <input
               type="email"
               placeholder="Your email address"
-              className="px-4 py-3 bg-[#F5F5F7] w-full text-sm rounded-lg sm:rounded-l-lg sm:rounded-r-none outline-none"
+              className="px-4 py-3 bg-[#F5F5F7] w-full text-sm rounded-lg sm:rounded-l-lg sm:rounded-r-none outline-none transition-transform duration-200 ease-out hover:scale-105"
             />
-            <button className="px-6 py-3 sm:py-0 bg-[#00D2FF] text-white text-sm font-medium rounded-lg sm:rounded-r-lg sm:rounded-l-none">
+            <button className="px-6 py-3 sm:py-0 bg-[#00D2FF] text-white text-sm font-medium rounded-lg sm:rounded-r-lg sm:rounded-l-none transition-transform duration-200 ease-out hover:scale-105">
               Subscribe
             </button>
           </div>

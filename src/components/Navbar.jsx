@@ -20,16 +20,16 @@ export default function Navbar({ dark, setDark }) {
       </div>
 
       <div className="flex items-center gap-2 md:gap-4">
-        <button className="px-3 py-1 border-none rounded-lg text-sm whitespace-nowrap">
+        <button className="px-3 py-1 border-none rounded-lg text-sm whitespace-nowrap transition-transform duration-200 ease-out hover:scale-105">
           Sign In
         </button>
 
-        <button className="px-4 py-2 md:px-6 md:py-3 bg-[#5D5FEF] text-white rounded-lg text-sm whitespace-nowrap">
+        <button className="px-4 py-2 md:px-6 md:py-3 bg-[#5D5FEF] text-white rounded-lg text-sm whitespace-nowrap transition-transform duration-200 ease-out hover:scale-105">
           Start Free
         </button>
 
         {/* Dark/Light Theme Toggle */}
-        <button
+        {/* <button
           onClick={() => setDark(!dark)}
           className="p-2 rounded-lg border"
         >
@@ -38,7 +38,7 @@ export default function Navbar({ dark, setDark }) {
           ) : (
             <MoonIcon className="h-5 w-5" />
           )}
-        </button>
+        </button> */}
       </div>
     </header>
   );

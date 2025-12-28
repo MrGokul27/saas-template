@@ -31,7 +31,7 @@ export default function GrowFaster() {
             sensible sociable surprise screened no up as.
           </p>
 
-          <div className="mt-6 flex items-center gap-2 text-green-600 font-semibold cursor-pointer">
+          <div className="mt-6 flex items-center gap-2 text-green-600 font-semibold cursor-pointer transition-transform duration-200 ease-out hover:scale-105">
             Read More <ArrowRight className="w-4 h-4" />
           </div>
         </div>
@@ -49,7 +49,7 @@ export default function GrowFaster() {
             By message or am nothing amongst chiefly address.
           </p>
 
-          <div className="mt-6 flex items-center gap-2 text-green-600 font-semibold cursor-pointer">
+          <div className="mt-6 flex items-center gap-2 text-green-600 font-semibold cursor-pointer transition-transform duration-200 ease-out hover:scale-105">
             Read More <ArrowRight className="w-4 h-4" />
           </div>
         </div>
@@ -67,7 +67,7 @@ export default function GrowFaster() {
             fond must shew. Really boy law county she unable her sister.
           </p>
 
-          <div className="mt-6 flex items-center gap-2 text-green-600 font-semibold cursor-pointer">
+          <div className="mt-6 flex items-center gap-2 text-green-600 font-semibold cursor-pointer transition-transform duration-200 ease-out hover:scale-105">
             Read More <ArrowRight className="w-4 h-4" />
           </div>
         </div>
@@ -75,7 +75,7 @@ export default function GrowFaster() {
 
       {/* Button */}
       <div className="text-center mt-16">
-        <button className="bg-[#6456f2] hover:bg-[#5548e6] text-white px-10 py-4 rounded-xl font-semibold shadow-md">
+        <button className="bg-[#6456f2] hover:bg-[#5548e6] text-white px-10 py-4 rounded-xl font-semibold shadow-md transition-transform duration-200 ease-out hover:scale-105">
           More About Platform
         </button>
       </div>

@@ -20,7 +20,7 @@ export default function Process() {
             thoughts all exercise blessing. Indulgence way everything joy.
           </p>
 
-          <button className="mt-8 px-8 py-2 bg-indigo-500 text-white rounded-full font-medium shadow-md">
+          <button className="mt-8 px-8 py-2 bg-indigo-500 text-white rounded-full font-medium shadow-md transition-transform duration-200 ease-out hover:scale-105 z-1000">
             Get Started
           </button>
         </div>
@@ -31,7 +31,7 @@ export default function Process() {
           <svg
             viewBox="0 0 900 300"
             fill="none"
-            className="absolute -top-20 left-1/2 -translate-x-1/2 w-[150%] max-w-none rotate-[-30deg] opacity-60 hidden xl:block"
+            className="absolute -top-20 left-1/2 -translate-x-1/2 w-[150%] max-w-none rotate-[-30deg] opacity-60 hidden xl:block -z-10"
           >
             <path
               d="M0 150 C150 50, 300 200, 450 140 C600 80, 750 250, 900 120"
@@ -48,7 +48,7 @@ export default function Process() {
                 title: "Project Discovery Call",
                 text: "Party we years to order allow asked of. We so opinion friends me message as delight.",
                 // pos: "bottom-0 left-0",
-                pos: "bottom-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 sm:bottom-0 sm:left-0 sm:translate-x-0 sm:translate-y-0"
+                pos: "bottom-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 sm:bottom-0 sm:left-0 sm:translate-x-0 sm:translate-y-0",
               },
               {
                 number: "2",

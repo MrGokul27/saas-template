@@ -28,13 +28,13 @@ export default function DownloadApp() {
         {/* BUTTONS */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mt-10">
           {/* App Store Button */}
-          <button className="flex items-center gap-2 bg-[#6B72FF] text-white px-6 py-3 rounded-full shadow-md hover:opacity-90 transition">
+          <button className="flex items-center gap-2 bg-[#6B72FF] text-white px-6 py-3 rounded-full shadow-md hover:opacity-90 transition transition-transform duration-200 ease-out hover:scale-105">
             <Apple className="w-5 h-5" />
             Playstore
           </button>
 
           {/* Google Play Button */}
-          <button className="flex items-center gap-2 bg-black text-white px-6 py-3 rounded-full shadow-md hover:opacity-90 transition">
+          <button className="flex items-center gap-2 bg-black text-white px-6 py-3 rounded-full shadow-md hover:opacity-90 transition transition-transform duration-200 ease-out hover:scale-105">
             <Play className="w-5 h-5" />
             Google Play
           </button>

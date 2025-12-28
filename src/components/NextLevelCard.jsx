@@ -18,7 +18,7 @@ export default function ProcNextLevelCard() {
           Meet the right platform to help realize.
         </p>
 
-        <button className="mt-4 px-6 py-2 bg-[#FF7F5C] text-white rounded-full font-medium shadow-md z-10">
+        <button className="mt-4 px-6 py-2 bg-[#FF7F5C] text-white rounded-full font-medium shadow-md z-10 transition-transform duration-200 ease-out hover:scale-105">
           Get Started
         </button>
       </div>

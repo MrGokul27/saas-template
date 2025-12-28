@@ -5,13 +5,13 @@ import blogImage4 from "../assets/images/blog4.png";
 
 export default function Blog() {
   return (
-    <section className="lg:px-20 px-5 pb-20 bg-white">
+    <section className="lg:px-20 px-5 pb-32 bg-white">
       {/* HEADER + BUTTON */}
       <div className="flex flex-col md:flex-row items-start md:items-center justify-between mb-12 gap-4">
         <h2 className="text-3xl md:text-4xl font-bold">
           Our Latest Blog Posts
         </h2>
-        <button className="px-6 py-2 bg-[#6658FF] text-white rounded-lg shadow-md hover:opacity-90">
+        <button className="px-6 py-2 bg-[#6658FF] text-white rounded-lg shadow-md hover:opacity-90 transition-transform duration-200 ease-out hover:scale-105">
           See All Blog Posts
         </button>
       </div>
@@ -23,7 +23,7 @@ export default function Blog() {
             <div key={item}>
               <img
                 src={item === 1 ? blogImage1 : blogImage2}
-                className="w-full h-60 object-cover rounded-xl"
+                className="w-full h-60 object-cover rounded-xl transition-transform duration-200 ease-out hover:scale-105"
                 alt=""
               />
 
@@ -48,7 +48,7 @@ export default function Blog() {
         </div>
 
         {/* RIGHT SIDE - SMALL BLOG LIST */}
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-8 max-h-[420px] overflow-y-auto pr-2">
           {[1, 2, 3, 4].map((item) => (
             <div key={item} className="flex gap-4 border-b pb-6">
               <img
@@ -61,7 +61,7 @@ export default function Blog() {
                     ? blogImage3
                     : blogImage4
                 }
-                className="w-20 h-20 object-cover rounded-lg"
+                className="w-20 h-20 object-cover rounded-lg transition-transform duration-200 ease-out hover:scale-105"
                 alt=""
               />
 

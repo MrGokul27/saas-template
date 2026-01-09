@@ -4,7 +4,7 @@ export default function Hero() {
     <section className="lg:px-20 px-5 py-20 hero-container hero-banner md:flex md:flex-row flex flex-col items-center justify-between h-full md:min-h-screen">
       {/* LEFT CONTENT */}
       <div className="text-start max-w-2xl lg:max-w-xl">
-        <p className="text-lg font-semibold">
+        <p className="text-lg font-semibold mt-5 sm:mt-0">
           Product Growth Solution in Single Platform.
         </p>
 

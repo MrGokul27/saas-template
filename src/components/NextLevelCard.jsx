@@ -1,3 +1,5 @@
+import nextLevelBg from "../assets/images/nextLevelCard.png";
+
 export default function ProcNextLevelCard() {
   return (
     <section className="mb-20">
@@ -5,7 +7,7 @@ export default function ProcNextLevelCard() {
       <div
         className="relative bg-cover bg-center bg-no-repeat rounded-xl gap-6 px-5 md:px-10 py-20 max-w-2xl mx-auto flex flex-col items-center text-center text-white"
         style={{
-          backgroundImage: "url('src/assets/images/nextLevelCard.png')",
+          backgroundImage: `url(${nextLevelBg})`,
         }}
       >
         <div className="absolute inset-0 bg-[#16012C]/50 rounded-xl"></div>

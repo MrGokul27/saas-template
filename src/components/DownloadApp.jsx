@@ -3,7 +3,7 @@ import { Play, Apple } from "lucide-react";
 export default function DownloadApp() {
   return (
     <section
-      className="py-10 lg:py-20 bg-contain bg-center bg-no-repeat min-h-[100vh] flex items-center justify-center"
+      className="py-10 lg:py-20 bg-contain bg-center bg-no-repeat min-h-screen min-h-[100dvh] flex items-center justify-center"
       style={{
         backgroundImage: "url('src/assets/images/whyChooseUsBackground.png')",
       }}
@@ -16,7 +16,8 @@ export default function DownloadApp() {
 
         {/* MAIN HEADING */}
         <h2 className="text-3xl md:text-4xl font-bold text-black leading-snug">
-          Download our app and start your free <br className="hidden md:block" />
+          Download our app and start your free{" "}
+          <br className="hidden md:block" />
           trail to get started today!
         </h2>
 

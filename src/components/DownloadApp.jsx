@@ -3,7 +3,7 @@ import { Play, Apple } from "lucide-react";
 export default function DownloadApp() {
   return (
     <section
-      className="py-10 lg:py-20 bg-contain bg-center bg-no-repeat min-h-screen min-h-[100dvh] flex items-center justify-center"
+      className="py-10 lg:py-20 bg-contain bg-center bg-no-repeat h-full md:min-h-screen flex items-center justify-center"
       style={{
         backgroundImage: "url('src/assets/images/whyChooseUsBackground.png')",
       }}

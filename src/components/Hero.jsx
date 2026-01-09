@@ -1,7 +1,7 @@
 import { CheckIcon } from "@heroicons/react/24/solid";
 export default function Hero() {
   return (
-    <section className="lg:px-20 px-5 py-20 hero-container hero-banner md:flex md:flex-row flex flex-col items-center justify-between min-h-screen min-h-[100dvh]">
+    <section className="lg:px-20 px-5 py-20 hero-container hero-banner md:flex md:flex-row flex flex-col items-center justify-between h-full md:min-h-screen">
       {/* LEFT CONTENT */}
       <div className="text-start max-w-2xl lg:max-w-xl">
         <p className="text-lg font-semibold">
